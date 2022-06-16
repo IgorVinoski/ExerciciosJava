@@ -17,7 +17,7 @@ menor ou igual ao terceiro lado..
           ladob = Integer.parseInt(System.console().readLine());
   System.out.print("Informe o primeiro lado:(lado c) ");
           ladoc = Integer.parseInt(System.console().readLine());
-  if((ladoa + ladob >= ladoc) && (ladob + ladoc >= ladoa) && (ladoc + ladoa >= ladob)){
+  if((ladoa + ladob >= ladoc) || (ladob + ladoc >= ladoa) || (ladoc + ladoa >= ladob)){
     System.out.println("Formam um triangulo");
   }else{
     System.out.println("Não formam um trinagulo"); 
