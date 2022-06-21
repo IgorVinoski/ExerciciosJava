@@ -1,6 +1,6 @@
-class exercicio7 {
-   /* (7)Desenvolva um programa que leia três valores numéricos inteiros,
-identifique e apresente o maior valor informado.
+class exercicio8 {
+   /* (8)Faça um programa que leia três valores numéricos inteiros, identifique e
+apresente o menor valor informado.
 */
   public static void main(String[] args) {
  int a, b, c;
@@ -11,13 +11,13 @@ identifique e apresente o maior valor informado.
      System.out.println("Informe o terceiro valor");
      c = Integer.parseInt(System.console().readLine());
     
-if(a > b &&  a>c){
-  System.out.println("o primeiro número "+ a + " é maior");
-}else if(b > a && b > c){
-    System.out.println("o primeiro número "+ b + " é maior");
+if(a < b &&  a<c){
+  System.out.println("o primeiro número "+ a + " é menor");
+}else if(b < a && b < c){
+    System.out.println("o primeiro número "+ b + " é menor");
 
-}else if(c>a && c>b){
-    System.out.println("o primeiro número "+ c + " é maior");
+}else if(c<a && c<b){
+    System.out.println("o primeiro número "+ c + " é menor");
 
 }
     
