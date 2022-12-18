@@ -1,3 +1,5 @@
+package Exercicios_if_else;
+
 class exercicio1 {
    /* (1) Faça um programa que leia dois valores numéricos inteiros e apresente
 o resultado da diferença do maior valor pelo menor valor. Se os valores
