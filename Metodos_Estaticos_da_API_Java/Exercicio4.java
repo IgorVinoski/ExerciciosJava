@@ -22,9 +22,8 @@ informar os valores para A, B e C.
         System.out.println("Digite o valor de C: ");
         c = Integer.parseInt(System.console().readLine());
 
-        double delta = deltaMath.sqrt(b * b - 4 * a * c);
-        x1 = ((-b + delta)/2*a);
-        x2 = ((-b - delta)/2*a);
+        x1 = ((-b + deltaMath.sqrt(b*b - 4 * a *c))/2*a);
+        x2 = ((-b - deltaMath.sqrt(b*b - 4 * a *c))/2*a);
         System.out.println("A raiz x1 é " + x1 + "\n A raiz x2 é " + x2);
     }
 }
