@@ -27,37 +27,34 @@ Tabela: https://prnt.sc/ETaQ1cZUJ7Bb
 
 
 
-        for (int i =0; i<58; i++){
+        for (int i =0; i<3; i++){
             System.out.println("Digite o salário ");
             salario = Double.parseDouble(System.console().readLine());
-
-
-
-
             if(salario<=1903.98){
+
                 if(salario<=1693.72){
-                    soma_salario+=(salario*(92/100));
+                    soma_salario+=(salario*92/100);
                 }else if(salario>1693.72 && salario<2882.9){
                     soma_salario+=(salario*(91/100));
                 }
 
             }else if(salario>=1903.98 && salario<=2826.65){
                 if(salario<=2822.90) {
-                    soma_salario += (salario * (92.5 / 100) + salario * (91 / 100));
+                    soma_salario += ((salario*92.5/100) - (salario*9/100));
                 }else{
-                    soma_salario += (salario * (92.5 / 100) + salario * (89 / 100));
+                    soma_salario += ((salario *92.5/100) - salario*11/100);
                 }
-                recolher+=salario*(7.5/100);
+                recolher+=salario*7.5/100;
 
             }else if(salario>=2826.65 && salario<=3751.05){
-                soma_salario+=(salario*(85/100) + salario * (89 / 100) );
-                recolher+=salario*(15/100);
+                soma_salario+=(salario*85/100 - salario*11/100 );
+                recolher+=salario*15/100;
             }else if(salario>=3751.05 && salario <= 4664.68){
-                soma_salario+=(salario*(77.5/100) + salario * (89 / 100) );
-                recolher+=(salario*(22.5/100));
+                soma_salario+=(salario*77.5/100 - salario*11/100);
+                recolher+=(salario*22.5/100);
             }else {
-                soma_salario+=(salario*(72.5/100)+ salario * (89 / 100));
-                recolher+=(salario*(27.5/100));
+                soma_salario+=(salario*72.5/100 - salario*11/100);
+                recolher+=(salario*27.5/100);
             }
 
 
