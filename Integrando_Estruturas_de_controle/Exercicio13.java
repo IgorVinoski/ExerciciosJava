@@ -60,7 +60,7 @@ public class Exercicio13 {
 
             }
             quant_caixa = caixa_1 + caixa_10 + caixa_50 + caixa_5;
-        } while ((quant_caixa > 0 || valor_saque >= 0));
+        } while ((quant_caixa > 0 && valor_saque >= 0));
         System.out.println(caixa_50);
         System.out.println(valor_saque);
 
