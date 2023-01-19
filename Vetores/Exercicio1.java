@@ -16,9 +16,9 @@ código, o aumento será de 15%; e para aqueles que satisfizerem apenas
 à condição de preço, o aumento será de 10%.
          */
 
-        String nomes[] = new String[2];
-        int codigos[] = new int[2];
-        double precos[] = new double[2];
+        String nomes[] = new String[10];
+        int codigos[] = new int[10];
+        double precos[] = new double[10];
 
         for(int i=0;i < 2; i++){
             System.out.println("Digite o nome do produto: ");
