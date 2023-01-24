@@ -12,9 +12,8 @@ diagonal principal de uma matriz 10 x 10.
 
 
         for(int i=0;i<matriz.length;i++){
-
             for(int c=0;c<matriz.length; c++){
-                System.out.println("Digite o valor da linha " + i +" ° e coluna " + i);
+                System.out.println("Digite o valor da linha " + i +" ° e coluna " + c);
                 matriz[i][i]= Integer.parseInt(System.console().readLine());
             }
 
