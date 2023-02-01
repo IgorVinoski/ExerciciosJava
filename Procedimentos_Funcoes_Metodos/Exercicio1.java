@@ -10,7 +10,7 @@ public class Exercicio1 {
 exercício.
      */
 
-    public static int f(int x) {
+    public static long f(long x) {
         int k = 1;
         for(int i = 1; i <= x; i++) {
             k *= i;
