@@ -4,7 +4,7 @@ public class Exercicio2 {
     /*
     Faça um programa em Java que calcule e mostre o resultado da série:
     https://prnt.sc/rX8XffEHc9oy
-    O valor de x deve ser informado pelo usuário. A série deve ser calculada
+    O valor de x deve aser informado pelo usuário. A série deve ser calculada
     até o 15º termo. Utilize o método definido no exercício 6 para o cálculo
     do fatorial.
 
